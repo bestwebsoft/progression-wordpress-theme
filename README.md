@@ -36,6 +36,8 @@ If you would like to create your own language pack or update the existing one, y
 Copyrights for Resources used in this theme.
 -----------------------------
 
-1 External font from Google Webfonts is used in Progression Theme - Open Sans - http://www.google.com/fonts/specimen/Open+Sans. License: Apache License Version 2.0. Copyright: Steve Matteson, https://profiles.google.com/107777320916704234605/about
-The following js-files are used in the Progression Theme: 1) pie.htc in the "ie" folder. License: Apache License Version 2.0 and GPL Version 3. Copyright: Jason Johnston, https://raw.github.com/lojjic/PIE/master/LICENSE-APACHE2.txt. 2) bws-gallery-portfolio.js, bws-gallery-aside.js, ie.js, slcript.js in the "js" folder. License: GNU General Public License v2 or later. Copyright: the Bestwebsoft team, https://github.com/bestwebsoft.
-The following images are used in the "img" folder in the Progression Theme. License: GNU General Public License v2 or later. Copyright: the Bestwebsoft team, https://github.com/bestwebsoft
+1. External font from Google Webfonts is used in Progression Theme - Open Sans - http://www.google.com/fonts/specimen/Open+Sans. License: Apache License Version 2.0. Copyright: Steve Matteson, https://profiles.google.com/107777320916704234605/about
+
+2. The following js-files are used in the Progression Theme: 1) pie.htc in the "ie" folder. License: Apache License Version 2.0 and GPL Version 3. Copyright: Jason Johnston, https://raw.github.com/lojjic/PIE/master/LICENSE-APACHE2.txt. 2) bws-gallery-portfolio.js, bws-gallery-aside.js, ie.js, slcript.js in the "js" folder. License: GNU General Public License v2 or later. Copyright: the Bestwebsoft team, https://github.com/bestwebsoft.
+
+3. The following images are used in the "img" folder in the Progression Theme. License: GNU General Public License v2 or later. Copyright: the Bestwebsoft team, https://github.com/bestwebsoft
