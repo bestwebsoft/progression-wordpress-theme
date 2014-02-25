@@ -1,0 +1,318 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: progression\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-05 16:45+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: the BestWebSoft team <social@bestwebsoft.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UKRAINE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../content.php:17
+msgid "Sticky Post"
+msgstr "Прикреплённый пост"
+
+#: ../content.php:19
+msgid "Posted on"
+msgstr "Опубликовал"
+
+#: ../content.php:20
+msgid "of"
+msgstr " "
+
+#: ../content.php:21
+msgid "by"
+msgstr " "
+
+#: ../content.php:23
+msgid "in"
+msgstr "в "
+
+#: ../content.php:38
+msgid "Read more..."
+msgstr "Читать далее..."
+
+#: ../content.php:41
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: ../content.php:49
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: ../content.php:49
+msgid "1 Comment"
+msgstr "Комментарии (1)"
+
+#: ../content.php:49
+#: ../comments.php:18
+msgid "% Comments"
+msgstr "Комментарии (%)"
+
+#: ../content.php:54
+msgid "[Top]"
+msgstr "[Наверх]"
+
+#: ../content.php:57
+msgid "[Edit this entry]"
+msgstr "[Редактировать запись]"
+
+#: ../content.php:63
+msgid "Previous Image"
+msgstr "Предыдущее изображение"
+
+#: ../content.php:64
+msgid "Next Image"
+msgstr "Следующее изображение"
+
+#: ../content.php:81
+msgid "No posts found."
+msgstr "Посты не найдены."
+
+#: ../content.php:82
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+#: ../footer.php:15
+msgid "Progression Theme, Copyright"
+msgstr "Progression Theme, Copyright"
+
+#: ../footer.php:16
+msgid "Proudly powered by"
+msgstr "Сайт работает на "
+
+#: ../comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Этот пост защищён паролем. Введите пароль, чтобы увидеть комментарии."
+
+#: ../comments.php:18
+msgid "No Comments"
+msgstr "Нет комментариев"
+
+#: ../comments.php:18
+msgid "One Comment"
+msgstr "Один комментарий"
+
+#: ../comments.php:24
+msgid "Reply"
+msgstr "Ответить"
+
+#: ../comments.php:37
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: ../404.php:12
+msgid "Error 404 - Page Not Found"
+msgstr "Ошибка 404 - Страница не найдена"
+
+#: ../functions.php:160
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s "
+
+#: ../functions.php:191
+msgid "Choose file..."
+msgstr "Выберите файл..."
+
+#: ../functions.php:192
+msgid "File is not selected."
+msgstr "Файл не выбран."
+
+#: ../functions.php:203
+#: ../functions.php:213
+#: ../functions.php:219
+#: ../functions.php:225
+#: ../functions.php:231
+#: ../functions.php:237
+#: ../functions.php:243
+#: ../functions.php:252
+#: ../functions.php:277
+msgid "Home"
+msgstr "Главная"
+
+#: ../functions.php:204
+msgid "Search results for "
+msgstr "Результаты поиска по запросу "
+
+#: ../functions.php:214
+msgid "Posts Tagged "
+msgstr "Посты под тегом"
+
+#: ../functions.php:220
+#: ../functions.php:226
+#: ../functions.php:232
+msgid "Archive for"
+msgstr "Архив за"
+
+#: ../functions.php:238
+msgid "Author Archive"
+msgstr "Все записи автора"
+
+#: ../functions.php:244
+msgid "Blog Archives"
+msgstr "Архив"
+
+#: ../functions.php:317
+msgid "Learn More"
+msgstr "Читать далее"
+
+#: ../functions.php:345
+msgid "Previous Page"
+msgstr "Предыдущая страница"
+
+#: ../functions.php:346
+msgid "Next Page"
+msgstr "Следующая страница"
+
+#: ../functions.php:395
+msgid " Check if you want featured image of this post to be shown in the slider. You can add text description as well."
+msgstr "Поставьте галочку, если хотите, чтобы изображение, прикреплённое к данному посту, отображалось в слайдере. Вы также можете добавить описание к изображению."
+
+#~ msgid "Created by"
+#~ msgstr "Сделано"
+#~ msgid "Read more"
+#~ msgstr "Читать далее"
+#~ msgid "View all posts in %s"
+#~ msgstr "Отобразить все посты в %s"
+#~ msgid "Sorry, nothing found."
+#~ msgstr "Извините, ничего не найдено."
+#~ msgid "Image"
+#~ msgstr "Изображение"
+#~ msgid "Download high resolution image"
+#~ msgstr "Скачать изображение в высоком разрешении"
+#~ msgid "Pages: "
+#~ msgstr "Страницы: "
+#~ msgid ""
+#~ "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out "
+#~ "of this account\">Log out?</a>"
+#~ msgstr ""
+#~ "Вы вошли как <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out "
+#~ "of this account\">Выйти?</a>"
+#~ msgid "Leave a Reply to %s"
+#~ msgstr "Оставить комментарий для %s"
+#~ msgid "Cancel reply"
+#~ msgstr "Я передумал оставлять комментарий"
+#~ msgid "Post Comment"
+#~ msgstr "Опубликовать"
+
+#, fuzzy
+#~ msgid "All posts by %s"
+#~ msgstr "Отобразить все посты в %s"
+#~ msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Читать далее <span class=\"meta-nav\">&rarr;</span>"
+
+#, fuzzy
+#~ msgid "One comment so far"
+#~ msgstr "Один комментарий"
+
+#, fuzzy
+#~ msgid "View all % comments"
+#~ msgstr "Оставить комментарий"
+#~ msgid "Edit"
+#~ msgstr "Редактировать"
+#~ msgid "Menu"
+#~ msgstr "Меню"
+#~ msgid "Skip to content"
+#~ msgstr "Перейти к контенту"
+
+#, fuzzy
+#~ msgid "Search Results for: %s"
+#~ msgstr "Результаты поиска по запросу "
+#~ msgid "http://wordpress.org/"
+#~ msgstr "http://wordpress.org/"
+
+#, fuzzy
+#~ msgid "Daily Archives: %s"
+#~ msgstr "Архив"
+
+#, fuzzy
+#~ msgid "Monthly Archives: %s"
+#~ msgstr "Архив"
+
+#, fuzzy
+#~ msgid "Yearly Archives: %s"
+#~ msgstr "Архив"
+
+#, fuzzy
+#~ msgid "Archives"
+#~ msgstr "Архив"
+
+#, fuzzy
+#~ msgid "%s Archives"
+#~ msgstr "Архив"
+#~ msgid "Comment navigation"
+#~ msgstr "Навигация"
+
+#, fuzzy
+#~ msgid "&larr; Older Comments"
+#~ msgstr "Один комментарий"
+
+#, fuzzy
+#~ msgid "Newer Comments &rarr;"
+#~ msgstr "Нет комментариев"
+#~ msgid "About %s"
+#~ msgstr "Про %s"
+
+#, fuzzy
+#~ msgid "Not found"
+#~ msgstr "Посты не найдены."
+
+#, fuzzy
+#~ msgid "Nothing Found"
+#~ msgstr "Извините, ничего не найдено."
+
+#, fuzzy
+#~ msgid "Category Archives: %s"
+#~ msgstr "Все записи автора"
+
+#, fuzzy
+#~ msgid "Tag Archives: %s"
+#~ msgstr "Архив"
+
+#, fuzzy
+#~ msgid "Sticky"
+#~ msgstr "Прикреплённый пост"
+
+#, fuzzy
+#~ msgid "View all posts by %s"
+#~ msgstr "Отобразить все посты в %s"
+
+#, fuzzy
+#~ msgid "Author Archives: %s"
+#~ msgstr "Все записи автора"
+
+#, fuzzy
+#~ msgid "No posts to display"
+#~ msgstr "Посты не найдены."
+
+#, fuzzy
+#~ msgid ""
+#~ "Sorry, but nothing matched your search criteria. Please try again with "
+#~ "some different keywords."
+#~ msgstr ""
+#~ "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые "
+#~ "слова."
+
+#, fuzzy
+#~ msgid "Leave a reply"
+#~ msgstr "Оставить комментарий для %s"
+
+#, fuzzy
+#~ msgid "1 Reply"
+#~ msgstr "Ответить"
+
+#, fuzzy
+#~ msgid "Post author"
+#~ msgstr "Опубликовал"
+#~ msgid "Created by BestWebSoft,"
+#~ msgstr "Сделано в BestWebSoft,"
+
