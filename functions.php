@@ -201,7 +201,7 @@ function progression_main_breadcrumbs() {
 	elseif ( is_search() ) : ?>
 		<ul class="clearfix">
 			<li><a href="<?php home_url() ?>"><?php _e( 'Home', 'progression' ) ?></a></li>
-			<li>&#8196;-&#8196;<span><?php _e( 'Search results for ', 'progression' ) ?>"<?php echo $_GET[ 's' ]; ?>"</span></li>
+			<li>&#8196;-&#8196;<span><?php printf( __( 'Search results for "%s"', 'progression' ), esc_html( get_search_query( false ) ) ); ?></span></li>
 		</ul>
 	<!-- If this is a category archive -->
 	<?php elseif( is_category() ) :

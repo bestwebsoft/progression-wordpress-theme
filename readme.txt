@@ -2,8 +2,8 @@
 Contributors: the BestWebSoft team
 Tags: white, blue, light, fixed-layout, right-sidebar, threaded-comments, sticky-post, custom-header, translation-ready, featured-images
 Requires at least: 3.3 
-Tested up to: 3.8.1
-Stable tag: 1.4
+Tested up to: 3.9.1
+Stable tag: 1.5
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Progression WordPress Theme, Copyright 2014 BestWebSoft.com
@@ -11,7 +11,7 @@ Progression is distributed under the terms of the GNU GPL
 
 == Description ==
 
-Progression is a cross-browser compatible, two-column, fixed-width theme featuring animated image slider. It`s a clean, simple and very powerful tool for organizing your blog.
+Progression is a theme that represents movement, innovation and technological advancement. With its elegant design and a whole pack of useful features this theme will turn your website into the fortress of IT and computer knowledge. At the same time, Progression is very simple to master, so even if you are a newbie to WordPress, you will hardly find any difficulties working with this theme. Also, this theme will be great for News magazines, Distribution Services, News Network sites, Movie news, Movie reviews, Sports News, Daily news, Sport newspapers, Sports magazines and Government agencies. Check out Progression and take a large step towards progress! See how your website will look with this theme at <a href="http://bestwebsoft.com/wordpress_demo_theme/progression/" target="_blank">http://bestwebsoft.com/wordpress_demo_theme/progression/</a>
 
 = Features =
 
@@ -108,6 +108,9 @@ You can use our contact form, for any support questions: http://bestwebsoft.com/
 
 == Changelog ==
 
+= V1.5 - 09.07.2014 =
+* Bugfix: Bug in the searchbox was fixed.
+
 = V1.4 - 10.02.2014 =
 * Update: The copyright information was updated.
 
@@ -124,6 +127,9 @@ You can use our contact form, for any support questions: http://bestwebsoft.com/
 * Bugfix: Bug in the slider was fixed.
 
 == Upgrade Notice ==
+
+= V1.5 =
+Bug in the searchbox was fixed.
 
 = V1.4 =
 The copyright information was updated.

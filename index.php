@@ -15,9 +15,7 @@ get_header(); ?>
 	<!-- Slider goes here --> 
 	<?php if ( is_front_page() ) :
 		do_action( 'progression_get_slider' );
-	endif;
-	/* Quotes and Tips */
-	if ( function_exists( 'qtsndtps_get_random_tip_quote' ) ) qtsndtps_get_random_tip_quote(); ?>
+	endif; ?>
 	<!-- Content goes here -->
 	<div id="content">
 		<?php get_template_part( 'content' );
