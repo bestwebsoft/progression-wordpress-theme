@@ -1,0 +1,178 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: progression\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-05 16:45+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: BestWebSoft <info@bestwebsoft.com>\n"
+"Language-Team: the BestWebSoft team <social@bestwebsoft.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UKRAINE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../content.php:17
+msgid "Sticky Post"
+msgstr ""
+
+#: ../content.php:19
+msgid "Posted on"
+msgstr ""
+
+#: ../content.php:20
+msgid "of"
+msgstr ""
+
+#: ../content.php:21
+msgid "by"
+msgstr ""
+
+#: ../content.php:23
+msgid "in"
+msgstr ""
+
+#: ../content.php:38
+msgid "Read more..."
+msgstr ""
+
+#: ../content.php:41
+msgid "Pages:"
+msgstr ""
+
+#: ../content.php:49
+msgid "Leave a comment"
+msgstr ""
+
+#: ../content.php:49
+msgid "1 Comment"
+msgstr ""
+
+#: ../content.php:49
+#: ../comments.php:18
+msgid "% Comments"
+msgstr ""
+
+#: ../content.php:54
+msgid "[Top]"
+msgstr ""
+
+#: ../content.php:57
+msgid "[Edit this entry]"
+msgstr ""
+
+#: ../content.php:63
+msgid "Previous Image"
+msgstr ""
+
+#: ../content.php:64
+msgid "Next Image"
+msgstr ""
+
+#: ../content.php:81
+msgid "No posts found."
+msgstr ""
+
+#: ../content.php:82
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr ""
+
+#: ../footer.php:15
+msgid "Progression Theme, Copyright"
+msgstr ""
+
+#: ../footer.php:16
+msgid "Proudly powered by"
+msgstr ""
+
+#: ../comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:18
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:18
+msgid "One Comment"
+msgstr ""
+
+#: ../comments.php:24
+msgid "Reply"
+msgstr ""
+
+#: ../comments.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#: ../404.php:12
+msgid "Error 404 - Page Not Found"
+msgstr ""
+
+#: ../functions.php:160
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../functions.php:191
+msgid "Choose file..."
+msgstr ""
+
+#: ../functions.php:192
+msgid "File is not selected."
+msgstr ""
+
+#: ../functions.php:203
+#: ../functions.php:213
+#: ../functions.php:219
+#: ../functions.php:225
+#: ../functions.php:231
+#: ../functions.php:237
+#: ../functions.php:243
+#: ../functions.php:252
+#: ../functions.php:277
+msgid "Home"
+msgstr ""
+
+#: ../functions.php:204
+msgid "Search results for "
+msgstr ""
+
+#: ../functions.php:214
+msgid "Posts Tagged "
+msgstr ""
+
+#: ../functions.php:220
+#: ../functions.php:226
+#: ../functions.php:232
+msgid "Archive for"
+msgstr ""
+
+#: ../functions.php:238
+msgid "Author Archive"
+msgstr ""
+
+#: ../functions.php:244
+msgid "Blog Archives"
+msgstr ""
+
+#: ../functions.php:317
+msgid "Learn More"
+msgstr ""
+
+#: ../functions.php:345
+msgid "Previous Page"
+msgstr ""
+
+#: ../functions.php:346
+msgid "Next Page"
+msgstr ""
+
+#: ../functions.php:395
+msgid " Check if you want featured image of this post to be shown in the slider. You can add text description as well."
+msgstr ""

@@ -421,4 +421,3 @@ add_action( 'progression_get_category_breadcrumbs', 'progression_get_category_br
 add_action( 'progression_get_slider', 'progression_get_slider' );
 add_action( 'progression_post_thumbnail_caption', 'progression_post_thumbnail_caption' );
 add_action( 'progression_pagination', 'progression_pagination' );
-?>

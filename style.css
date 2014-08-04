@@ -4,7 +4,7 @@ Theme URI: http://bestwebsoft.com/theme/progression
 Author: the BestWebSoft team
 Author URI: https://github.com/bestwebsoft
 Description: Progression is a theme that represents movement, innovation and technological advancement. With its elegant design and a whole pack of useful features this theme will turn your website into the fortress of IT and computer knowledge. At the same time, Progression is very simple to master, so even if you are a newbie to WordPress, you will hardly find any difficulties working with this theme. Also, this theme will be great for News magazines, Distribution Services, News Network sites, Movie news, Movie reviews, Sports News, Daily news, Sport newspapers, Sports magazines and Government agencies. Check out Progression and take a large step towards progress! See how your website will look with this theme at <a href="http://bestwebsoft.com/wordpress_demo_theme/progression/" target="_blank">http://bestwebsoft.com/wordpress_demo_theme/progression/</a>
-Version: 1.5
+Version: 1.6
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: white, blue, light, fixed-layout, right-sidebar, threaded-comments, sticky-post, translation-ready, featured-images
@@ -315,6 +315,7 @@ label {
 
 input[type=text], 
 input[type=password],
+input[type=email],
 input[type=search] {
 	border: 1px solid rgb(229, 229, 229);
 	color: rgb(48, 48, 48);
@@ -349,6 +350,7 @@ select {
 input.button,
 input[type=reset],
 input[type=submit],
+input[type=button],
 button[type=reset],
 button[type=submit] {
 	background: rgb(48, 48, 48);
@@ -376,6 +378,7 @@ button[type=submit] {
 input.button:hover,
 input[type=reset]:hover,
 input[type=submit]:hover,
+input[type=button]:hover,
 button[type=reset]:hover,
 button[type=submit]:hover {
 	background: rgb(40, 135, 184);

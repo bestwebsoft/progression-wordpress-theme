@@ -3,7 +3,7 @@ Contributors: the BestWebSoft team
 Tags: white, blue, light, fixed-layout, right-sidebar, threaded-comments, sticky-post, custom-header, translation-ready, featured-images
 Requires at least: 3.3 
 Tested up to: 3.9.1
-Stable tag: 1.5
+Stable tag: 1.6
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Progression WordPress Theme, Copyright 2014 BestWebSoft.com
@@ -108,6 +108,10 @@ You can use our contact form, for any support questions: http://bestwebsoft.com/
 
 == Changelog ==
 
+= V1.6 - 30.07.2014 =
+* New: We added progression.pot file. 
+* Update: We update style.css.
+
 = V1.5 - 09.07.2014 =
 * Bugfix: Bug in the searchbox was fixed.
 
@@ -127,6 +131,9 @@ You can use our contact form, for any support questions: http://bestwebsoft.com/
 * Bugfix: Bug in the slider was fixed.
 
 == Upgrade Notice ==
+
+= V1.6 =
+We added progression.pot file. We update style.css.
 
 = V1.5 =
 Bug in the searchbox was fixed.
