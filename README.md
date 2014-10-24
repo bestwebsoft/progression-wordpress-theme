@@ -3,7 +3,7 @@
 
 Progression is a cross-browser compatible, two-column, fixed-width theme featuring animated image slider. Its a clean, simple and very powerful tool for organizing your blog.
 
-<img src="http://bestwebsoft.com/wp-content/uploads/2014/02/progression-banner.jpg" />
+<img src="http://bestwebsoft.com/wp-content/uploads/2014/09/xprogression-wp-banner.jpg.pagespeed.ic.dmm41B9PmR.jpg" />
 
 <a href="http://bestwebsoft.com/theme/progression/#description" target=_blank>Description</a> | 
 <a href="http://bestwebsoft.com/theme/progression/#installation" target=_blank>Installation</a> | 
@@ -30,7 +30,7 @@ Translation
 -----------------------------
 * Russian (ru_RU)
 
-If you would like to create your own language pack or update the existing one, you can send the text of PO and MO files for BestWebSoft and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files Poedit.
+If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestwebsoft.com" target="_blank">BestWebSoft</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
 
 
 Copyrights for Resources used in this theme.
