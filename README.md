@@ -5,12 +5,12 @@ Progression is a cross-browser compatible, two-column, fixed-width theme featuri
 
 <img src="http://bestwebsoft.com/wp-content/uploads/2014/09/xprogression-wp-banner.jpg.pagespeed.ic.dmm41B9PmR.jpg" />
 
-<a href="http://bestwebsoft.com/theme/progression/#description" target=_blank>Description</a> | 
-<a href="http://bestwebsoft.com/theme/progression/#installation" target=_blank>Installation</a> | 
-<a href="http://bestwebsoft.com/theme/progression/#faq" target=_blank>FAQ</a> | 
-<a href="http://bestwebsoft.com/theme/progression/#screenshots" target=_blank>Screenshots</a> | 
-<a href="http://bestwebsoft.com/theme/progression/#changelog" target=_blank>Changelog</a> | 
-<a href="http://bestwebsoft.com/theme/progression/#download" target=_blank>Download</a>
+<a href="http://bestwebsoft.com/products/progression/description" target=_blank>Description</a> | 
+<a href="http://bestwebsoft.com/products/progression/installation" target=_blank>Installation</a> | 
+<a href="http://bestwebsoft.com/products/progression/faq" target=_blank>FAQ</a> | 
+<a href="http://bestwebsoft.com/products/progression/screenshots" target=_blank>Screenshots</a> | 
+<a href="http://bestwebsoft.com/products/progression/changelog" target=_blank>Changelog</a> | 
+<a href="http://bestwebsoft.com/products/progression/download" target=_blank>Download</a>
 
 
 Features
