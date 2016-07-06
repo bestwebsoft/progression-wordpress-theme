@@ -6,19 +6,19 @@
  * #main and #page div elements
  *
  * @subpackage Progression
- * @since Progression 1.3
+ * @since      Progression 1.3
  */
 ?>
-		<footer id="footer-wrap">
-			<div id="footer-content" class="clearfix">
-				<p class="copyright">
-					<?php _e( 'Progression Theme, Copyright', 'progression' ); ?> <?php echo date(" Y"); ?> <a href="<?php echo wp_get_theme()->get( 'AuthorURI' ); ?>">BestWebSoft</a><br>
-					<?php printf( __( 'Proudly powered by', 'progression' ) ) ?><a href="<?php echo esc_url( 'http://wordpress.org/' ); ?>"> WordPress</a>
-				</p>
-				<?php wp_footer(); ?>	
-				<!-- Don't forget analytics -->
-			<div> <!-- END footer-content -->
-		</footer>
-	</div><!-- END main-page-wrap -->
+<footer id="footer-wrap">
+	<div id="footer-content" class="clearfix">
+		<p class="copyright">
+			<?php echo '&copy;' . '&nbsp;' . date_i18n( 'Y' ) . ' ' . get_bloginfo( 'name' ) . '<br />';
+			printf( __( 'Powered by %1$s and %2$s', 'progression' ), '<a href="' . esc_url( wp_get_theme()->get( 'AuthorURI' ) ) . '">' . wp_get_theme()->get( 'Author' ) . '</a>', '<a href="' . esc_url( 'http://wordpress.org' ) . '">WordPress</a>' ); ?>
+		</p>
+		<?php wp_footer(); ?>
+		<!-- Don't forget analytics -->
+		<div> <!-- END footer-content -->
+</footer>
+</div><!-- END main-page-wrap -->
 </body>
 </html>

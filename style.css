@@ -1,14 +1,16 @@
 /*   
 Theme Name: Progression
-Theme URI: http://bestwebsoft.com/theme/progression
-Author: the BestWebSoft team
-Author URI: https://github.com/bestwebsoft
-Description: Progression is a theme that represents movement, innovation and technological advancement. With its elegant design and a whole pack of useful features this theme will turn your website into the fortress of IT and computer knowledge. At the same time, Progression is very simple to master, so even if you are a newbie to WordPress, you will hardly find any difficulties working with this theme. Also, this theme will be great for News magazines, Distribution Services, News Network sites, Movie news, Movie reviews, Sports News, Daily news, Sport newspapers, Sports magazines and Government agencies. Check out Progression and take a large step towards progress! See how your website will look with this theme at <a href="http://bestwebsoft.com/wordpress_demo_theme/progression/" target="_blank">http://bestwebsoft.com/wordpress_demo_theme/progression/</a>
-Version: 1.6
+Theme URI: http://bestweblayout.com/products/progression/
+Author: BestWebLayout
+Author URI: http://bestweblayout.com/
+Description: Progression is a theme that represents movement, innovation and technological advancement. With its elegant design and a whole pack of useful features this theme will turn your website into the fortress of IT and computer knowledge. At the same time, Progression is very simple to master, so even if you are a newbie to WordPress, you will hardly find any difficulties working with this theme. Also, this theme will be great for News magazines, Distribution Services, News Network sites, Movie news, Movie reviews, Sports News, Daily news, Sport newspapers, Sports magazines and Government agencies. Check out Progression and take a large step towards progress! See how your website will look with this theme at <a href="http://wp-demo-theme.bestweblayout.com/progression/" target="_blank">http://wp-demo-theme.bestweblayout.com/progression/</a>
+Version: 2.0
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
-Tags: white, blue, light, fixed-layout, right-sidebar, threaded-comments, sticky-post, translation-ready, featured-images
+Tags: two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready
 Text Domain: progression
+Progression WordPress Theme, Copyright 2016 BestWebLayout.com
+Theme Progression is distributed under the terms of the GNU GPL
 */
 
 /* ^1 -------------------------------------------------------- */
@@ -169,6 +171,14 @@ section {
 #page-wrap {
 	font-family: 'Open Sans';
 	width: 100%;
+}
+
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
 }
 
 /* ^4.1 ------------------------------------------------------- */
@@ -746,6 +756,24 @@ div.wp-caption img {
 	word-wrap: break-word;
 }
 
+#progression-custom-header {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+#progression-custom-header img {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
 /* ^5.1------------------------------------------------------ */
 /* main nav ------------------------------------------------- */
 /* ---------------------------------------------------------- */ 
@@ -788,8 +816,7 @@ div.wp-caption img {
 }
 
 #main-nav > ul > .has-sub-items:hover {
-	background: rgb(48, 48, 48) url(images/arrow_down.png) no-repeat;
-	background-position: right top;
+	background: rgb(48, 48, 48) url(images/arrow_down.png) no-repeat right top;
 }
 
 #main-nav li ul {
@@ -820,13 +847,11 @@ div.wp-caption img {
 
 #main-nav li ul .has-sub-items  {
 	padding-right: 35px;
-	background: rgb(48, 48, 48) url(images/arrow_right.png) no-repeat;
-	background-position: right center;
+	background: rgb(48, 48, 48) url(images/arrow_right.png) no-repeat right center;
 }
 
 #main-nav li ul .has-sub-items:hover  {
-	background: rgb(24, 24, 24) url(images/arrow_right.png) no-repeat;
-	background-position: right center;
+	background: rgb(24, 24, 24) url(images/arrow_right.png) no-repeat right center;
 }
 
 #main-nav a {
@@ -836,8 +861,8 @@ div.wp-caption img {
 
 /* Third level sub menu and further */
 #main-nav ul ul ul {
-	left: 176px;
-	top: 0;
+	/*left: 176px;*/
+	/*top: 0;*/
 	visibility: hidden;
 
 	top: 33px;
@@ -1171,7 +1196,7 @@ div.link-pages {
 	padding: 18px 30px 18px;
 	text-transform: uppercase;
 	width: 210px;
-	word-spacing: 0px;
+	word-spacing: 0;
 }
 
 #sidebar .widget > h2:first-child a {
@@ -1189,7 +1214,7 @@ div.link-pages {
 }
 
 #sidebar ul {
-	background: rgb(239, 239, 239);*/
+	background: rgb(239, 239, 239);
 	display: block;
 	font-size: 16px;
 	padding: 5px 31px 27px;
@@ -1460,7 +1485,7 @@ div.link-pages {
 	cursor: pointer;
 	display: inline-block;
 	height: 10px;
-	left: 0px;
+	left: 0;
 	margin: 0 5px;
 	position: relative;
 	top: 1px;
@@ -1619,12 +1644,12 @@ article.entry .pagination,
 .post-footer .pagination {
 	margin-bottom: 0;
 	padding-top: 25px;
-	top: 0px;
+	top: 0;
 }
 
 body.page-template-gallery-template-php .pagination {
 	margin: 0;
-	top: 0px;
+	top: 0;
 	width: 100%;
 }
 

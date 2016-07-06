@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * The main template file.
  *
@@ -8,20 +8,20 @@
  * For example, it puts together the home page when no home.php file exists.
  *
  * @subpackage Progression
- * @since Progression 1.3
+ * @since      Progression 1.3
  */
 get_header(); ?>
-<div id="main-section-wrap" class="clearfix">
-	<!-- Slider goes here --> 
-	<?php if ( is_front_page() ) :
-		do_action( 'progression_get_slider' );
-	endif; ?>
-	<!-- Content goes here -->
-	<div id="content">
-		<?php get_template_part( 'content' );
-		do_action( 'progression_pagination' ); ?>
-	</div> <!-- END content -->
-	<!-- Sidebar goes here -->
-	<?php get_sidebar(); ?>
-</div>  <!-- END main-section-wrap -->
-<?php get_footer(); ?>
+	<div id="main-section-wrap" class="clearfix">
+		<!-- Slider goes here -->
+		<?php if ( is_front_page() ) :
+			do_action( 'progression_get_slider' );
+		endif; ?>
+		<!-- Content goes here -->
+		<div id="content">
+			<?php get_template_part( 'content' );
+			do_action( 'progression_pagination' ); ?>
+		</div> <!-- END content -->
+		<!-- Sidebar goes here -->
+		<?php get_sidebar(); ?>
+	</div>  <!-- END main-section-wrap -->
+<?php get_footer();

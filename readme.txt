@@ -1,17 +1,19 @@
 === Progression ===
-Contributors: the BestWebSoft team
-Tags: white, blue, light, fixed-layout, right-sidebar, threaded-comments, sticky-post, custom-header, translation-ready, featured-images
-Requires at least: 3.3 
-Tested up to: 3.9.1
-Stable tag: 1.6
+Contributors: BestWebLayout, BestWebSoft
+Author URI: http://bestweblayout.com/
+Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
+Tags: two-columns, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, sticky-post, threaded-comments, translation-ready
+Requires at least: 4.2
+Tested up to: 4.5.3
+Stable tag: 2.0
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Progression WordPress Theme, Copyright 2014 BestWebSoft.com
+Progression WordPress Theme, Copyright 2016 BestWebLayout.com
 Progression is distributed under the terms of the GNU GPL
 
 == Description ==
 
-Progression is a theme that represents movement, innovation and technological advancement. With its elegant design and a whole pack of useful features this theme will turn your website into the fortress of IT and computer knowledge. At the same time, Progression is very simple to master, so even if you are a newbie to WordPress, you will hardly find any difficulties working with this theme. Also, this theme will be great for News magazines, Distribution Services, News Network sites, Movie news, Movie reviews, Sports News, Daily news, Sport newspapers, Sports magazines and Government agencies. Check out Progression and take a large step towards progress! See how your website will look with this theme at <a href="http://bestwebsoft.com/wordpress_demo_theme/progression/" target="_blank">http://bestwebsoft.com/wordpress_demo_theme/progression/</a>
+Progression is a theme that represents movement, innovation and technological advancement. With its elegant design and a whole pack of useful features this theme will turn your website into the fortress of IT and computer knowledge. At the same time, Progression is very simple to master, so even if you are a newbie to WordPress, you will hardly find any difficulties working with this theme. Also, this theme will be great for News magazines, Distribution Services, News Network sites, Movie news, Movie reviews, Sports News, Daily news, Sport newspapers, Sports magazines and Government agencies. Check out Progression and take a large step towards progress! See how your website will look with this theme at <a href="http://wp-demo-theme.bestweblayout.com/" target="_blank">http://wp-demo-theme.bestweblayout.com/progression/</a>
 
 = Features =
 
@@ -29,7 +31,7 @@ Progression is a theme that represents movement, innovation and technological ad
 
 * Russian (ru_RU)
 
-If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestwebsoft.com" target="_blank">BestWebSoft</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
+If you would like to create your own language pack or update the existing one, you can send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestweblayout.com" target="_blank">BestWebLayout</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>.
 
 = Copyrights for Resources used in this theme. =
 
@@ -71,7 +73,7 @@ Activiation and Use
 
 = Slider =
 
-After the theme is installed the metabox "Slider Settings" will appear in the Wordpress admin panel in the post editing section. 
+After the theme is installed the metabox "Slider Settings" will appear in the WordPress admin panel in the post editing section.
 In this metabox you will see two input fields: text-field and checkbox. If you check the checkbox the featured image of this particular post will appear in the slider.
 Every post (or page) has its own metabox, so if you go to another post (or page) and check the checkbox there the featured image of that post (or page) will be added to the slider as well, and the slider will have tow slides. You can get as many posts (or pages) to the slider as you want.
 The slider itself is located on the frontpage and consists of three parts: title (title of post), image (featured image of post), description (short description typed into the text-field in the metabox "Slider Settings"). 
@@ -84,7 +86,11 @@ To post thumbnails we recommend using the image with width equal to 503px.
 
 = How can I change language from English into Russian? =
 
-In the main catalog of your WordPress site find file wp-config.php, open it and change define( ‘WPLANG’, '' ); for define( ‘WPLANG’, ‘ru_RU’ );
+WordPress v4.0 and above:
+Change the language in the admin settings screen. Settings > General > Site Language.
+
+WordPress v3.9.2 and below:
+In the main catalog of your WordPress site, please find wp-config.php file, open it and change define( 'WPLANG', '' ); for define( 'WPLANG', 'ru_RU' );
 
 = Can I choose a place to display the Slider? =
 
@@ -107,6 +113,29 @@ You can use our contact form, for any support questions: http://bestwebsoft.com/
 1. Theme home page.
 
 == Changelog ==
+
+= V2.0 - 06.07.2016 =
+* Bugfix: Fixed mismatch coding standards.
+* Bugfix: Fixed theme styles.
+* Update: Translations has been updated.
+* Update: Screenshot was updated to size 1200x900.
+* Update: The theme has been tested for the compatibility with WordPress v.4.5.3.
+* Update: Theme was transferred to new WordPress account.
+
+= V1.9 - 12.05.2015 =
+* Update: Unnecessary scripts was removed from functions.php.
+* Update: Unnecessary files bws-gallery-portfolio.js and bws-gallery-aside.js was removed.
+
+= V1.8 - 06.05.2015 =
+* Bugfix: Header image was fixed.
+* Bugfix: The permalink was removed from the single post/page title.
+* Update: "Main Navigation" was internationalized.
+* Update: The "System status" was removed from the theme.
+
+= V1.7 - 01.04.2015 =
+* Update: We updated the theme to support features in WordPress 4.1.1.
+* Update: Screenshot was updated.
+* Update: The following files were updated: style.css, header.php, functions.php, screenshot.png.
 
 = V1.6 - 30.07.2014 =
 * New: We added progression.pot file. 
@@ -131,6 +160,18 @@ You can use our contact form, for any support questions: http://bestwebsoft.com/
 * Bugfix: Bug in the slider was fixed.
 
 == Upgrade Notice ==
+
+= V2.0 =
+Fixed mismatch coding standards. Fixed theme styles. Translations has been updated. Screenshot was updated to size 1200x900. The theme has been tested for the compatibility with WordPress v.4.5.3. Theme was transferred to new WordPress account.
+
+= V1.9 =
+Unnecessary scripts was removed from functions.php. Unnecessary files bws-gallery-portfolio.js and bws-gallery-aside.js was removed.
+
+= V1.8 =
+Header image was fixed. The permalink was removed from the single post/page title. "Main Navigation" was internationalized. The "System status" was removed from the theme.
+
+= V1.7 =
+We updated the theme to support features in WordPress 4.1.1. Screenshot was updated. The following files were updated: style.css, header.php, functions.php.
 
 = V1.6 =
 We added progression.pot file. We update style.css.
