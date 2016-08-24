@@ -17,24 +17,25 @@ $first_page = true; ?>
 				the_title();
 			} ?>
 		</h1>
-		<!-- Post meta info "Posted on 7 of January, 2012 by Paul in Uncategorized" for example -->
+		<!-- Post meta info -->
 		<div class="meta">
-			<?php if ( is_sticky() ) : ?>
-				<em class="sticky"><?php _e( 'Sticky Post', 'progression' ); ?></em>
-			<?php endif; ?>
-			<em><?php _e( 'Posted on', 'progression' ); ?></em>
-			<?php if ( is_singular() ) {
-				$prgrssn_date_link = get_month_link( get_the_time( 'Y' ), get_the_time( 'm' ) );
-			} else {
-				$prgrssn_date_link = get_the_permalink();
-			} ?>
-			<a href="<?php echo esc_url( $prgrssn_date_link ); ?>" title="<?php the_title_attribute(); ?>">
-				<?php _e( 'of', 'progression' );
-				echo get_the_date(); ?>
-			</a>
-			<em><?php _e( 'by', 'progression' ); ?></em> <?php the_author_posts_link();
-			if ( ! is_page() && has_category() ) : ?>
-				<em><?php _e( 'in', 'progression' ); ?></em> <?php the_category( ', ' );
+			<?php if ( ! is_page() ) :
+				if ( is_sticky() ) : ?>
+					<em class="sticky"><?php _e( 'Sticky Post', 'progression' ); ?></em>
+				<?php endif; ?>
+				<em><?php _e( 'Posted on', 'progression' ); ?></em>
+				<?php if ( is_singular() ) {
+					$prgrssn_date_link = get_month_link( get_the_time( 'Y' ), get_the_time( 'm' ) );
+				} else {
+					$prgrssn_date_link = get_the_permalink();
+				} ?>
+				<a href="<?php echo esc_url( $prgrssn_date_link ); ?>" title="<?php the_title_attribute(); ?>">
+					<?php echo get_the_date(); ?>
+				</a>
+				<em><?php _e( 'by', 'progression' ); ?></em> <?php the_author_posts_link();
+				if ( has_category() ) : ?>
+					<em><?php _e( 'in', 'progression' ); ?></em> <?php the_category( ', ' );
+				endif;
 			endif; ?>
 		</div>
 		<!-- Featured image -->
@@ -60,7 +61,9 @@ $first_page = true; ?>
 		</article>
 
 		<div class="post-footer clearfix">
-			<?php the_tags( '<div class="post-tags">', ', ', '</div>' );
+			<?php if ( has_tag() ) {
+				the_tags( '<div class="post-tags">', ', ', '</div>' );
+			}
 			if ( comments_open() ) : ?>
 				<div class="comments-link">
 					<?php comments_popup_link( '<span class="leave-comment">' . __( 'Leave a comment', 'progression' ) . '</span>', __( '1 Comment', 'progression' ), __( '% Comments', 'progression' ) ); ?>
@@ -87,7 +90,7 @@ $first_page = true; ?>
 			<?php endif; ?>
 		</div>
 
-		<?php if ( is_singular() ) :
+		<?php if ( is_singular() && comments_open() ) :
 			comments_template();
 		endif; ?>
 

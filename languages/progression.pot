@@ -1,165 +1,163 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Progression\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-06 15:35+0300\n"
+"Project-Id-Version: Progression v2.1\n"
+"POT-Creation-Date: 2016-08-24 12:39+0300\n"
 "PO-Revision-Date: \n"
-"Last-Translator: BestWebSoft <info@bestwebsoft.com>\n"
-"Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
-"Language: en_UA\n"
+"Last-Translator: Your Name <you@example.com>\n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_nx:1,2,4c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
-"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
 "X-Generator: Poedit 1.8.4\n"
-"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: ../404.php:12
+#: 404.php:12
 msgid "Error 404 - Page Not Found"
 msgstr ""
 
-#: ../comments.php:13
+#: comments.php:13
 msgid "This post is password protected. Enter the password to view comments."
 msgstr ""
 
-#: ../comments.php:20
+#: comments.php:20
 #, php-format
 msgid "One comment"
 msgid_plural "%s comments"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../comments.php:27
+#: comments.php:27
 msgid "Reply"
 msgstr ""
 
-#: ../comments.php:40
+#: comments.php:40
 msgid "Comments are closed."
 msgstr ""
 
-#: ../content.php:23
+#: content.php:24
 msgid "Sticky Post"
 msgstr ""
 
-#: ../content.php:25
+#: content.php:26
 msgid "Posted on"
 msgstr ""
 
-#: ../content.php:32
-msgid "of"
-msgstr ""
-
-#: ../content.php:35
+#: content.php:35
 msgid "by"
 msgstr ""
 
-#: ../content.php:37
+#: content.php:37
 msgid "in"
 msgstr ""
 
-#: ../content.php:52
+#: content.php:53
 msgid "Read more..."
 msgstr ""
 
-#: ../content.php:56
+#: content.php:57
 msgid "Pages:"
 msgstr ""
 
-#: ../content.php:66
+#: content.php:69
 msgid "Leave a comment"
 msgstr ""
 
-#: ../content.php:66
+#: content.php:69
 msgid "1 Comment"
 msgstr ""
 
-#: ../content.php:66
+#: content.php:69
 msgid "% Comments"
 msgstr ""
 
-#: ../content.php:71
+#: content.php:74
 msgid "[Top]"
 msgstr ""
 
-#: ../content.php:74
+#: content.php:77
 msgid "[Edit this entry]"
 msgstr ""
 
-#: ../content.php:80
+#: content.php:83
 msgid "Previous Image"
 msgstr ""
 
-#: ../content.php:81
+#: content.php:84
 msgid "Next Image"
 msgstr ""
 
-#: ../content.php:98
+#: content.php:101
 msgid "No posts found."
 msgstr ""
 
-#: ../content.php:99
+#: content.php:102
 msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
 msgstr ""
 
-#: ../footer.php:16
+#: footer.php:16
 #, php-format
 msgid "Powered by %1$s and %2$s"
 msgstr ""
 
-#: ../functions.php:47
+#: functions.php:47
 msgid "Main Navigation"
 msgstr ""
 
-#: ../functions.php:172
+#: functions.php:116
 msgid "Choose file..."
 msgstr ""
 
-#: ../functions.php:173
+#: functions.php:117
 msgid "File is not selected."
 msgstr ""
 
-#: ../functions.php:184 ../functions.php:195 ../functions.php:201
-#: ../functions.php:207 ../functions.php:213 ../functions.php:219
-#: ../functions.php:225 ../functions.php:234 ../functions.php:259
+#: functions.php:128 functions.php:139 functions.php:145 functions.php:151 functions.php:157 functions.php:163
+#: functions.php:169 functions.php:178 functions.php:203
 msgid "Home"
 msgstr ""
 
-#: ../functions.php:185
+#: functions.php:129
 #, php-format
 msgid "Search results for \"%s\""
 msgstr ""
 
-#: ../functions.php:196
+#: functions.php:140
 msgid "Posts Tagged "
 msgstr ""
 
-#: ../functions.php:202 ../functions.php:208 ../functions.php:214
+#: functions.php:146 functions.php:152 functions.php:158
 msgid "Archive for "
 msgstr ""
 
-#: ../functions.php:220
+#: functions.php:164
 msgid "Author Archive "
 msgstr ""
 
-#: ../functions.php:226
+#: functions.php:170
 msgid "Blog Archives "
 msgstr ""
 
-#: ../functions.php:300
+#: functions.php:244
 msgid "Learn More"
 msgstr ""
 
-#: ../functions.php:328
+#: functions.php:272
 msgid "Previous Page"
 msgstr ""
 
-#: ../functions.php:329
+#: functions.php:273
 msgid "Next Page"
 msgstr ""
 
-#: ../functions.php:381
+#: functions.php:324
 msgid " Check if you want featured image of this post to be shown in the slider. You can add text description as well."
 msgstr ""

@@ -1,33 +1,35 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Progression\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-07-06 15:35+0300\n"
+"Project-Id-Version: Progression v2.1\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-08-24 12:36+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
-"Language-Team: bestwebsoft.com <wp_theme@bestwebsoft.com>\n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_nx:1,2,4c;esc_attr_e;"
-"esc_html_e\n"
-"X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 1.8.4\n"
-"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: ../404.php:12
+#: 404.php:12
 msgid "Error 404 - Page Not Found"
 msgstr "Ошибка 404 - Страница не найдена"
 
-#: ../comments.php:13
+#: comments.php:13
 msgid "This post is password protected. Enter the password to view comments."
 msgstr "Этот пост защищён паролем. Введите пароль, чтобы увидеть комментарии."
 
-#: ../comments.php:20
+#: comments.php:20
 #, php-format
 msgid "One comment"
 msgid_plural "%s comments"
@@ -35,75 +37,71 @@ msgstr[0] "%s комментарий"
 msgstr[1] "%s комментария"
 msgstr[2] "%s комментариев"
 
-#: ../comments.php:27
+#: comments.php:27
 msgid "Reply"
 msgstr "Ответить"
 
-#: ../comments.php:40
+#: comments.php:40
 msgid "Comments are closed."
 msgstr "Комментарии закрыты."
 
-#: ../content.php:23
+#: content.php:24
 msgid "Sticky Post"
 msgstr "Прикреплённый пост"
 
-#: ../content.php:25
+#: content.php:26
 msgid "Posted on"
 msgstr "Опубликовал"
 
-#: ../content.php:32
-msgid "of"
-msgstr " "
-
-#: ../content.php:35
+#: content.php:35
 msgid "by"
 msgstr " "
 
-#: ../content.php:37
+#: content.php:37
 msgid "in"
-msgstr "в "
+msgstr "в"
 
-#: ../content.php:52
+#: content.php:53
 msgid "Read more..."
 msgstr "Читать далее..."
 
-#: ../content.php:56
+#: content.php:57
 msgid "Pages:"
 msgstr "Страницы:"
 
-#: ../content.php:66
+#: content.php:69
 msgid "Leave a comment"
 msgstr "Оставить комментарий"
 
-#: ../content.php:66
+#: content.php:69
 msgid "1 Comment"
 msgstr "Комментарии (1)"
 
-#: ../content.php:66
+#: content.php:69
 msgid "% Comments"
 msgstr "Комментарии (%)"
 
-#: ../content.php:71
+#: content.php:74
 msgid "[Top]"
 msgstr "[Наверх]"
 
-#: ../content.php:74
+#: content.php:77
 msgid "[Edit this entry]"
 msgstr "[Редактировать запись]"
 
-#: ../content.php:80
+#: content.php:83
 msgid "Previous Image"
 msgstr "Предыдущее изображение"
 
-#: ../content.php:81
+#: content.php:84
 msgid "Next Image"
 msgstr "Следующее изображение"
 
-#: ../content.php:98
+#: content.php:101
 msgid "No posts found."
-msgstr "Посты не найдены."
+msgstr "Записи не найдены."
 
-#: ../content.php:99
+#: content.php:102
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with "
 "different keywords."
@@ -111,63 +109,63 @@ msgstr ""
 "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые "
 "слова."
 
-#: ../footer.php:16
+#: footer.php:16
 #, php-format
 msgid "Powered by %1$s and %2$s"
 msgstr "При поддержке  %1$s и %2$s"
 
-#: ../functions.php:47
+#: functions.php:47
 msgid "Main Navigation"
 msgstr "Главное меню"
 
-#: ../functions.php:172
+#: functions.php:116
 msgid "Choose file..."
 msgstr "Выберите файл..."
 
-#: ../functions.php:173
+#: functions.php:117
 msgid "File is not selected."
 msgstr "Файл не выбран."
 
-#: ../functions.php:184 ../functions.php:195 ../functions.php:201
-#: ../functions.php:207 ../functions.php:213 ../functions.php:219
-#: ../functions.php:225 ../functions.php:234 ../functions.php:259
+#: functions.php:128 functions.php:139 functions.php:145 functions.php:151
+#: functions.php:157 functions.php:163 functions.php:169 functions.php:178
+#: functions.php:203
 msgid "Home"
 msgstr "Главная"
 
-#: ../functions.php:185
+#: functions.php:129
 #, php-format
 msgid "Search results for \"%s\""
 msgstr "Результаты поиска для \"%s\""
 
-#: ../functions.php:196
+#: functions.php:140
 msgid "Posts Tagged "
-msgstr "Посты под тегом"
+msgstr "Посты с меткой "
 
-#: ../functions.php:202 ../functions.php:208 ../functions.php:214
+#: functions.php:146 functions.php:152 functions.php:158
 msgid "Archive for "
 msgstr "Архив за "
 
-#: ../functions.php:220
+#: functions.php:164
 msgid "Author Archive "
-msgstr "Все записи автора "
+msgstr "Записи автора "
 
-#: ../functions.php:226
+#: functions.php:170
 msgid "Blog Archives "
-msgstr "Архив: "
+msgstr "Архив "
 
-#: ../functions.php:300
+#: functions.php:244
 msgid "Learn More"
 msgstr "Читать далее"
 
-#: ../functions.php:328
+#: functions.php:272
 msgid "Previous Page"
 msgstr "Предыдущая страница"
 
-#: ../functions.php:329
+#: functions.php:273
 msgid "Next Page"
 msgstr "Следующая страница"
 
-#: ../functions.php:381
+#: functions.php:324
 msgid ""
 " Check if you want featured image of this post to be shown in the slider. "
 "You can add text description as well."
@@ -175,6 +173,9 @@ msgstr ""
 "Поставьте галочку, если хотите, чтобы изображение, прикреплённое к данному "
 "посту, отображалось в слайдере. Вы также можете добавить описание к "
 "изображению."
+
+#~ msgid "of"
+#~ msgstr " "
 
 #~ msgid "Progression Theme, Copyright"
 #~ msgstr "Progression Theme, Copyright"

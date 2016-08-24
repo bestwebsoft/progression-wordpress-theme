@@ -60,63 +60,6 @@ function progression_widgets_init() {
 	) );
 }
 
-/** Styles the header image displayed on the Appearance > Header admin panel. */
-function progression_admin_header_style() { ?>
-	<style type="text/css" id="progression-admin-header-css">
-		.appearance_page_custom-header #headimg {
-			border: none;
-			font-family: "Open Sans", Helvetica, Arial, sans-serif;
-			height: 98px !important;
-			overflow: hidden;
-			width: 940px;
-		}
-
-		#headimg h1,
-		#desc {
-			color: <?php echo '#' . get_header_textcolor(); ?>;
-			margin: 0;
-			min-height: 32px;
-			line-height: 32px;
-			padding: 31px 0 35px 0;
-			position: relative;
-			top: 1px;
-		}
-
-		#headimg h1 {
-			float: left;
-			font-weight: bold;
-			font-size: 18px;
-			letter-spacing: .02em;
-			max-width: 580px;
-		}
-
-		#headimg h1 a {
-			text-decoration: none;
-		}
-
-		#desc {
-			color: rgb(127, 127, 127);
-			float: right;
-			font-style: italic;
-			font-size: 13px;
-			letter-spacing: .02em;
-			max-width: 270px;
-			-moz-opacity: .6; /*mozilla 1.6 and lower*/
-			-khtml-opacity: .6; /*safari 1.1*/
-			opacity: .6;
-			text-align: right;
-		}
-
-		#headimg img {
-			left: 0;
-			overflow: hidden;
-			position: absolute;
-			top: 0;
-			z-index: -1;
-		}
-	</style>
-<?php } // end progression_admin_header_style()
-
 /* SLider functions */
 /* Adds metabox to the main column on the Post and Page edit screens. */
 function progression_add_custom_box() {
@@ -157,9 +100,10 @@ function progression_scripts() {
 	wp_enqueue_style( 'progression-style', get_stylesheet_uri() );
 
 	// Load the Internet Explorer specific stylesheet & scripts.
-	global $wp_styles;
 	wp_enqueue_style( 'progression-style-old-ie', get_template_directory_uri() . '/ie/ie.css', array( 'progression-style' ) );
-	$wp_styles->add_data( 'progression-style-old-ie', 'conditional', 'lt IE 9' );
+	wp_style_add_data( 'progression-style-old-ie', 'conditional', 'lt IE 9' );
+	wp_enqueue_script( 'progression-html5', get_template_directory_uri() . '/js/ie.js' );
+	wp_script_add_data( 'progression-html5', 'conditional', 'lt IE 9' );
 
 	// script for main navigation, custom forms and slider
 	wp_enqueue_script( 'progression-script', get_template_directory_uri() . '/js/script.js', array( 'jquery' ) );
@@ -286,24 +230,24 @@ function progression_get_slider() {
 		if ( $query->have_posts() ) {
 			$switch_slides = ''; ?>
 			<div id="slider">
-			<?php while ( $query->have_posts() ) {
-				$query->next_post();
-				$p = $query->post; ?>
-				<div id="slide-<?php echo $query->current_post ?>" class="slide">
-					<?php echo get_the_post_thumbnail( $p->ID, 'slide' ); ?>
-					<div class="slide-description">
-						<h1><?php echo $p->post_title ?></h1>
+				<?php while ( $query->have_posts() ) {
+					$query->next_post();
+					$p = $query->post; ?>
+					<div id="slide-<?php echo $query->current_post ?>" class="slide">
+						<?php echo get_the_post_thumbnail( $p->ID, 'slide' ); ?>
+						<div class="slide-description">
+							<h1><?php echo $p->post_title ?></h1>
 
-						<p><?php echo get_post_meta( $p->ID, 'slide-description', true ) ?></p>
+							<p><?php echo get_post_meta( $p->ID, 'slide-description', true ) ?></p>
+						</div>
+						<div class="learn-more">
+							<a href="<?php echo get_permalink( $p->ID ) ?>"><?php _e( 'Learn More', 'progression' ); ?></a>
+						</div>
+						<?php $switch_slides .= '<div id="switch-slide-' . $query->current_post . '"></div>'; ?>
 					</div>
-					<div class="learn-more">
-						<a href="<?php echo get_permalink( $p->ID ) ?>"><?php _e( 'Learn More', 'progression' ); ?></a>
-					</div>
-					<?php $switch_slides .= '<div id="switch-slide-' . $query->current_post . '"></div>'; ?>
-				</div>
-			<?php } // End while.
-			wp_reset_postdata(); // restore the global $post variable ?>
-			<div class="switch-slides-container"><?php echo $switch_slides; ?></div>
+				<?php } // End while.
+				wp_reset_postdata(); // restore the global $post variable ?>
+				<div class="switch-slides-container"><?php echo $switch_slides; ?></div>
 			</div><?php // close id="slider"
 		} // End if.
 	}
@@ -355,7 +299,6 @@ function progression_header_style() {
 
 			#progression-logo h2 {
 				-moz-opacity: .6; /*mozilla 1.6 and lower*/
-				-khtml-opacity: .6; /*safari 1.1*/
 				opacity: .6;
 			}
 
@@ -397,9 +340,7 @@ function progression_get_parent( $p_id ) {
 
 /** Actions */
 add_action( 'after_setup_theme', 'progression_setup' );
-add_action( 'admin_menu', 'progression_admin_menu' );
 add_action( 'widgets_init', 'progression_widgets_init' );
-//add_action( 'admin_head', 'progression_admin_header_style' );
 add_action( 'add_meta_boxes', 'progression_add_custom_box' );
 add_action( 'save_post', 'progression_slider_save_postdata' );
 add_action( 'wp_enqueue_scripts', 'progression_scripts' );
